@@ -63,3 +63,25 @@ img{
 body{
     background-color: rgb(165, 216, 227);
 }
+@media (max-width: 480px) {
+    .choice {
+        height: 35vw; /* Further adjust size for mobile screens */
+        width: 35vw;
+    }
+
+    .choices {
+        gap: 0.5rem;
+    }
+
+    #user-score, #comp-score {
+        font-size: 2rem;
+    }
+
+    h1 {
+        font-size: 1.2rem;
+    }
+
+    #msg {
+        font-size: 1.2rem;
+    }
+}
